@@ -1,0 +1,37 @@
+.marginProductos {
+  margin-top: 10px; }
+
+.margin_producto2 {
+  margin-top: 25px; }
+
+.margin_blog p {
+  margin-bottom: 40px; }
+
+.margin_con {
+  margin-top: 10px; }
+
+.h2 {
+  margin-bottom: 20px; }
+
+.bg-lime {
+  background-color: limegreen;
+  border-radius: 20px; }
+
+body {
+  background-image: url(../assets/img/fondotrebol.jpg);
+  overflow-x: hidden; }
+
+main {
+  background-color: white;
+  border-radius: 20px; }
+
+.gradi {
+  background-image: linear-gradient(to right, darkgreen, limegreen, darkcyan); }
+
+.h1 {
+  display: flex;
+  justify-content: center; }
+
+.border {
+  border-top: 20px double black;
+  margin-top: 25px; }
