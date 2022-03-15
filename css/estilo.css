@@ -26,11 +26,17 @@ main {
   border-radius: 20px; }
 
 .gradi {
-  background-image: linear-gradient(to right, darkgreen, limegreen, darkcyan); }
+  background-image: linear-gradient(to top, darkgreen, limegreen, darkcyan); }
 
 .h1 {
   display: flex;
   justify-content: center; }
+
+.logo {
+  width: 90px; }
+
+* {
+  font-family: 'Lobster', cursive; }
 
 .border {
   border-top: 20px double black;
