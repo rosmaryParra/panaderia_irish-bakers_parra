@@ -27,3 +27,10 @@
     @include index (1335px, 500px)
     
 }
+
+@mixin blog ($imgBlog){
+    width: $imgBlog;
+}
+.img_blog {
+    @include blog (400px)
+}

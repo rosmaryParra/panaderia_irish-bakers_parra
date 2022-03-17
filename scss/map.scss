@@ -31,12 +31,11 @@ $productos: (
 }
 //MAP GET NOSOTROS
 $nosotros: (
-    bgcolor: rgba(51, 209, 37, 0.74),
-    color: white,
+    borderT: solid 3px #208b20,
+    borderB: solid 3px #208b20,
 
 );
-.nos1 {
-    background-color: map-get($nosotros,bgcolor);
-    color: map-get($nosotros, color );
-
+.subti_nos h2 {
+    border-top: map-get($nosotros, borderT );
+    border-bottom: map-get($nosotros, borderB );
 }
