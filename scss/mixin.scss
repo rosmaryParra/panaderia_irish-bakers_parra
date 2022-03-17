@@ -1,0 +1,29 @@
+@mixin imgLogo ($widthlogo){
+    width: $widthlogo;
+}
+.logo {
+    @include imgLogo(90px);
+}
+@mixin imgPro ($widthimg){
+    width: $widthimg;
+}
+.img_pro {
+    @include imgPro (100px)
+}
+.img_proM {
+    @include imgPro (100px)
+}
+@mixin Imgpro ($imgPro) {
+    width: $imgPro;
+}
+.img_pro1 {
+    @include Imgpro (120px)
+}
+@mixin index ($img_index, $alto) {
+    width: $img_index;
+    height: $alto;
+}
+.img_index {
+    @include index (1335px, 500px)
+    
+}
