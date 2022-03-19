@@ -12,11 +12,11 @@
 }
 //MAP GET PRODUCTOS
 $productos: (
-    bradius: 10px,
+    bradius: 5px,
     bgcolor: #bb695b,  
     color: white,
     bacolor: #c5b39c,
-    colorba: black
+    colorba: black,
 );
 .pro1 {
     border-radius: map-get($productos, bradius);
