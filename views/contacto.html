@@ -28,116 +28,93 @@
    </head>
    <body>
 <!-- ENCABEZADO-->          
-  <header class="cotainer-fluid">
- <!-- MENU PRINCIPAL-->
-    <div class="row gradi">
-      <div class="col-lg-12 col-12 ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-color">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../assets/img/logo.png" alt="logo irish bakers" class="img-fluid logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- DIV FINAL-->
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
-              <li class="nav-item active">
-                <a class="nav-link" href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-<!-- FIN ENCABEZADO--> 
-
-<!-- INICIO CONTENIDO-->
-  <main class="container-fluid marginTop-5">
-<!-- INICIO FORMULARIO-->   
-   <div class="row margin_con align-items-center">
-    <div class="col-lg-12 col-12 d-flex justify-content-center">
-            <form>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Ingresa tu email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com">
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">¿Recomendarias esta página?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>--</option>
-            <option>Si</option>
-            <option>No</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">¿Que puntuacion nos darias?</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-        <label for="exampleFormControlTextarea1">Comenta!</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="form-check form-check-inline">
-      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-       <label class="form-check-label" for="inlineCheckbox1">Acepto Terminos y Condiciones</label>
-       </div>
-       <button type="submit" class="btn btn-primary btn-sm boton_enviar">Enviar</button>
-       <button type="reset" class="btn btn-secondary btn-sm boton_clear">Reiniciar</button>  
-       </form>
-    </div>
-<!-- FIN Formulario-->  
-      </div>
-<!-- FIN Img Sucursal-->    
-      <div class="row align-items-center marginTop-5">
-<!-- MAPA SUCURSAL-->        
-         <div class="col-lg-12 col-12 d-flex justify-content-center">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6013486655556!2d-58.46303188505191!3d-34.61424086556143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb7cc0845945%3A0x33c10f9c35ecc98a!2sPanader%C3%ADa%20Irish%20Bakers!5e0!3m2!1ses-419!2sar!4v1643938622763!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="img-fluid"></iframe>
-         </div>
-      </div>
-<!-- FIN Mapa Sucursal 3-->
-  </main> 
-<!-- FIN CONTENIDO-->  
-
-<!-- INICIO FOOTER-->
-  <footer class="container-fluid">
-    <div class="row align-items-center border gradi">
-      <div class="col-lg-4 col-12">
-        <h2>Podes contactarnos!</h2>
-        <div><img src="https://img.icons8.com/material-outlined/24/000000/google-plus.png" />
-          infobakers@gmail.com</div>
-        <div><img src="https://img.icons8.com/material-outlined/24/000000/google-maps.png" />VERSALLES, CABA
-        </div>
-        <div><img src="https://img.icons8.com/material-outlined/24/000000/whatsapp--v1.png" />+54 9 11 3210-9746</div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <div><img src="https://img.icons8.com/material-outlined/48/000000/facebook-new.png" />irish.bakers</div>
-        <div><img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png" />@irish.bakers</div>
-        <div><img src="https://img.icons8.com/material-outlined/48/000000/twitter-squared.png" />@TheIrishBaker</div>
-      </div>
-      <div class="col-lg-4 col-12">
-        <img src="../assets/img/logo.png" alt="logo irish bakers" class="img-fluid logo_foo">
-      </div>
-    </div>
+<div class="grid">
+  <header class="header">
+     <nav class="gradi">
+         <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+                 <label for="nav__checkbox" class="nav__toggle">
+                     <!-- Imagen Menu Hambur -->
+                     <svg class="menu" viewbox="0 0 448 512" width="100" title="bars">
+                     <path
+                     d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                     </svg>
+                     <!-- Imagen Close -->
+                     <svg class="close" viewbox="0 0 384 512" width="100" title="times">
+                     <path
+                     d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+                    </svg>
+                 </label>
+              <ul class="nav__menu">
+                  <li class="menu__logo">
+                       <a href="../index.html"><img src="../assets/img/logo.png" alt="irish bakers"/></a>
+                  </li>
+                  <li><a href="../index.html">Inicio</a></li>
+                 <li><a href="nosotros.html">Nosotros</a></li>
+                 <li><a href="productos.html">Productos</a></li>
+                 <li><a href="blog.html">Blog</a></li>
+                 <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+     </nav>
+</header>
+ <main>
+     <!-- INICIO FORMULARIO-->
+     <form action="#" class="marginTop-5 form">
+<!-- INICIO PARA COMPLETAR-->           
+   <input type="text" name="nombre" placeholder="Nombre">
+   <input type="text" name="apellido" placeholder="Apellido">
+   <div>
+   <input type="text" name="email" placeholder="ejemplo@gmail.com">
+   </div>
+<!-- FIN Para Completar-->      
+<!-- INICIO PARA ELEGIR-->
+ <div class="form_texto"> ¿Recomendarias esta pagina?
+   <select name="elegir" id="elegir">
+     <option value="--">--</option>
+     <option value="Si">Si</option>  
+     <option value="No">No</option>
+   </select>
+ </div>
+<!-- FIN Para Elegir-->
+ <div class="form_texto">
+     Comenta!
+ </div>
+ <div>
+   <textarea name="" id="" cols="30" rows="10"></textarea>
+ </div> 
+<!--INICIO TERMINOS Y CONDICIONES-->
+ <div class="form_texto">Acepta terminos y Condiciones
+     <input type="checkbox" name="aceptar" value="1">
+ </div>
+<!-- FIN Terminos y Condiciones-->
+<!-- INICIO BOTONES-->
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Reset"> 
+<!-- FIN Botones-->
+     </form>
+<!-- FIN Formulario-->
+<!-- MAPA SUCURSAL-->   
+<iframe class="marginTop-5 marginBo-5 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6013486655556!2d-58.46303188505191!3d-34.61424086556143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb7cc0845945%3A0x33c10f9c35ecc98a!2sPanader%C3%ADa%20Irish%20Bakers!5e0!3m2!1ses-419!2sar!4v1643938622763!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+<!-- FIN Mapa Sucursal-->       
+     </main>
+ <footer class="gradi marginTop-7">
+   <div>
+       <h2>Podes contactarnos!</h2>
+     <div><img src="https://img.icons8.com/material-outlined/24/000000/google-plus.png" />
+       infobakers@gmail.com</div>     
+   <div><img src="https://img.icons8.com/material-outlined/24/000000/google-maps.png" />VERSALLES, CABA
+   </div>
+   <div><img src="https://img.icons8.com/material-outlined/24/000000/whatsapp--v1.png" />+54 9 11 3210-9746</div>
+ </div>
+ <div>
+     <div><img src="https://img.icons8.com/material-outlined/48/000000/facebook-new.png" />irish.bakers</div>
+     <div><img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png" />@irish.bakers</div>
+     <div><img src="https://img.icons8.com/material-outlined/48/000000/twitter-squared.png" />@TheIrishBaker</div>
+ </div>
+ <div>
+     <img src="../assets/img/logo.png" alt="logo irish bakers" class="img-fluid logo_foo">
+ </div>
+     </footer>
+ </div>
   </footer>
   <!-- FIN FOOTER-->
 
