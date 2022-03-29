@@ -76,15 +76,15 @@ a:hover {
 
 #nav__checkbox:checked ~ label.nav__toggle .menu {
   display: none;
-
 }
-form {
-	display: flex;
-	flex-direction: column;
+
+main {
+	display: grid;
 	justify-content: center;
+	align-content: center;
 }
 
-footer{
+.foo_contac{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
